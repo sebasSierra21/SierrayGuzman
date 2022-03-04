@@ -35,6 +35,7 @@ header{
 ul {
     display: flex;
     flex-flow: column wrap;
+    font-size: 1.1rem;
 }
 
 .box {
@@ -70,6 +71,7 @@ section {
 
 .nosotros {
     margin: 10px;
+    font-size: 1.1rem;
 }
 
 .img {
