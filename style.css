@@ -27,8 +27,13 @@ header{
     padding: 10px;
 }
 
+.box-logo {
+    width:80px;
+    height:80px;
+}
+
 ul {
-    display: none;
+    display: flex;
     flex-flow: column wrap;
 }
 
@@ -94,7 +99,32 @@ h1{
 }
 
 .box-clientes {
+    display: flex;            
+}
+
+.img-logo-clientes {
+    width: 100px;
+    height: 70px;
+}
+
+footer {
+    background-color: #b1886b;
     display: flex;
+    flex-flow: column wrap;
     
-            
+    width: 100%;
+}
+
+.politica {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 10px;
+}
+
+.contacto {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 10px;
 }
